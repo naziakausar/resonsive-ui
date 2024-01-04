@@ -1,0 +1,578 @@
+.buttonsection{display: flex;
+flex-direction: row;}
+.ul{height: 332px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* background-color: #285c04; */
+}
+/* .li{color: white;} */
+.heading {
+  text-align: center;
+}
+ @media only screen and (max-width: 425px) {
+  .input{display: none;}
+  #checkbtn{display: flex;}
+  #check:checked ~.nav{display: flex;
+    flex-direction: column;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 66px; 
+}
+.header{display: none;}}
+  .mobileinput{display: block;
+  background-color: transparent;
+border: none;}
+
+.registerlogin{font-size: 12px;}
+.register{gap: 4px;}
+.companylogo{font-size: 10px;}
+.hearticon{width: 20px;
+height: 20px;}
+  /* #check:checked ~ .input{display: block;
+    position: absolute;
+  top:25px;
+  right: 74px;
+  }
+  .register{display: none;}
+  #checkbtn{display: block;}
+  .header{width: 100%;
+   height:auto; 
+  align-items: baseline;  */
+  
+/* background-color: #285c04; */
+/* }  */
+/* .input{position: relative;} */
+ /* #check:checked ~ .input{display: flex;
+  position: absolute;
+  top: 105px;
+  right: 199px;
+   transition: .5s; 
+}  */
+
+/* #check:checked ~ .register{display: block;
+  flex-direction: row;
+ position: absolute;
+ /* bottom: 30px; */
+ /* left: 191px;
+ top: 208px;
+ transition: .5s; 
+
+
+}  */
+/* } */
+
+/* .logo1{width: 20px;
+height: 20px;
+position: relative;
+top: -21px;
+left: -27px;
+transition: .5s;  }
+.companylogo{font-size: 10px;
+} */
+/* .registerlogin{font-size: 15px;}
+.hearticon{width: 20px; */
+  /* padding: -1px 25px; */
+/* height: 20px;} */
+/* .register{gap: 0px;}
+.header{padding: 0px;} */
+
+/* @media only screen and (max-width: 375px) {
+  .logo1{width: 20px;
+    height: 20px;
+  position: relative;
+top: -17px;
+left: -19px;
+transition: .5s;  } */
+    /* .companylogo{font-size: 9px;
+    } 
+    .registerlogin{font-size: 15px;}
+    .hearticon{width: 20px; */
+       /* padding: -1px 25px;  */
+    /* height: 20px;} */
+    /* .register{gap: 0px;}
+    .header{padding: 0px;}
+
+    .logo1{display: flex;}
+   
+    #checkbtn{display: block;}
+    .header{width: 100%;
+   height: auto;
+    
+  background-color: #285c04;}
+  .input{position: absolute;} */
+  /* #check:checked ~ .logo1{display: block;
+    position: absolute;
+    top: 100px;
+    right: 180px;
+     transition: .5s; 
+  
+  } */
+  /* #check:checked ~ .register{display: none;
+    position: absolute;} */
+  /* #check:checked ~ .input{display: block;
+  position: absolute;
+top:25px;
+right: 74px;
+} */
+  /* #check:checked ~ .register{display: block;
+    flex-direction: row;
+   position: absolute;
+   /* bottom: 30px; */
+   /* left: 146px;
+   top: 364px;
+   transition: .5s;  */
+  
+  
+  /* }  */
+/* } */
+
+/* @media only screen and (max-width: 320px) {
+  /* .logo1{width: 20px;
+    height: 20px;} */
+    /* .companylogo{font-size: 9px; */
+    /* }  */
+    /* .registerlogin{font-size: 15px;}
+    .hearticon{width: 20px; */
+      /* padding: -1px 25px; */
+    /* height: 20px;} */
+    /* .register{gap: 0px;}
+    .header{padding: 0px;}
+
+    .logo1{display: none;} */
+    /* .register{display: none;} */
+    #checkbtn{display: block;}
+    /* .header{width: 100%;
+     height: auto;  */
+    
+  /* background-color: #285c04;
+} */
+  /* .input{position: relative;} */
+   /* .logo1{display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 268px;
+ 
+     transition: .5s;   */
+  
+  /* } */
+  /* #check:checked ~ .register{display: block;
+    flex-direction: row;
+   position: absolute;
+   /* bottom: 30px; */
+   /* left: 122px; */
+   /* top: 211px; */
+    /* transition: .5s;  */
+  
+  
+  /* } 
+} */
+/* @media only screen and (max-width: 425px) {
+  .li{
+   
+    color:white;
+   
+  }
+  #check:checked ~ .register{display: block;
+    flex-direction: row;
+   position: absolute; */
+   /* bottom: 30px; */
+   /* left: 117px;
+   top: 364px;
+   transition: .5s; 
+  
+  
+  } */
+  
+  
+  /* .header{position: relative;} */
+  
+  /* #check:checked ~.nav{display: flex;
+  flex-direction: column;
+height: auto;
+width: 100%;
+position: absolute;
+top: 66px; */
+ /* color: #285c04;  */
+  /* background-color: #285c04;    */
+/* }
+  .ul{display: none;} */
+/* } */
+.shape{width: 100%;
+height: 80%;
+transform: translate(3px, -50px) rotate(-38deg);
+position: relative;
+left: -11px;
+top: 30px;
+ /* right: 1px; */
+}
+.hotp{top:37px;
+right:38px ;
+font-size: 10px;}
+
+.americanfood {
+  /* font-size: 33px; */
+  font-size: 28px;
+}
+.besttasteheading {
+  /* font-size: 29px; */
+  font-size: 24px;
+  text-align: center;
+}
+.heading {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.lorem {
+  font-size: 18px;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  background-position: center;
+  padding: 40px;
+  box-shadow: 0px 0px 12px;
+}
+.aboutustext {
+  font-size: 50px;}
+  .aboutustext2 {
+    font-size: 26px;}
+    @media only screen and (max-width: 499px) {
+      .aboutustext{font-size:47px ;}
+    }
+
+
+.videosection {
+  flex-direction: column;
+  padding: 43px;
+  height: 800px;
+  width: 100%;
+  gap: 0px;
+  /* justify-content: center; */
+  align-items: center;
+}
+/* .videosection {
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+
+   position: static; 
+}   */
+.besttasteheading1 {
+  font-size: 27px;
+}
+.lorem1 {
+  text-align: left;
+}
+.textboxsection {
+  width: 100%;
+
+  height: fit-content;
+}
+/* .foodvideo {
+  top: 50%;
+  left: 50%;
+}  */
+/* {
+  left: 33%;
+  top: 67%;
+} */
+.pastavideo {
+  width: 270px;
+  height: 270px;
+}
+@media only screen and (max-width: 499px) {
+  .textboxsection {
+    width: 100%;
+  }
+  .videosection {
+    flex-direction: column;
+    padding: 43px;
+    height: 671px;
+    width: 100%;
+    gap: 0px;
+  }
+  .foodvideo {
+    left: 33%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media only screen and (max-width: 401px) {
+  .textboxsection {
+    width: 100%;
+  }
+  .videosection {
+    flex-direction: column;
+    padding: 43px;
+    height: 818px;
+    width: 100%;
+    gap: 0px;
+  }
+  .pastavideo {
+    width: 230px;
+    height: 240px;
+  }
+
+  .foodvideo {
+    left: 33%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .textboxsection {
+    width: 100%;
+  }
+  .videosection2 {
+    flex-direction: column;
+    padding: 5px 43px;
+    height: 671px;
+    width: 100%;
+    gap: 0px;
+  }
+  .foodvideo2 {
+    left: 33%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 401px) {
+  .textboxsection {
+    width: 100%;
+  }
+  .videosection2 {
+    flex-direction: column;
+    padding: 0px 40px;
+    height: 680px;
+    width: 100%;
+    gap: 0px;
+  }
+
+  .foodvideo2 {
+    left: 33%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.lorem {
+  text-align: justify;
+}
+.servicesection {
+  padding: 0px 43px;
+  gap: 0px;
+}
+.servicebox {
+  width: 100%;
+  height: 20vh;
+}
+.servictext {
+  font-size: 60px;
+}
+.servictext2 {
+  font-size: 30px;
+}
+
+.peanutbutter {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+  padding: 43px;
+}
+.lorem2 {
+  text-align: justify;
+  font-size: 17px;
+}
+.peanutimage {
+  width: 250px;
+  /* padding: 26px; */
+  height: 200px;
+}
+.peanutimagebox {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.peanutextboxsection {
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.pumpkinsection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 43px;
+}
+.jabalayasection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+  padding: 43px;
+}
+.americanfood2 {
+  font-size: 25px;
+}
+.besttasteheadingfood {
+  font-size: 18px;
+}
+.discountbox {
+  background-position: center;
+  padding: 40px;
+  box-shadow: 0px 0px 4px;
+}
+/*card section responsivness*/
+.cardsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  height: auto;
+}
+.heading2 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.backgroundcoverimage3 {
+  box-shadow: 0px 0px 4px;
+  background-position: center;
+  padding: 40px;
+}
+.plan {
+  height: 186px;
+}
+.card1 {
+  width: 315px;
+  height: 478px;
+  gap: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.card2 {
+  width: 315px;
+  height: 478px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.card3 {
+  width: 315px;
+  display: flex;
+  height: 478px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.blog {
+  padding: 0px 43px;
+  gap: 0px;
+}
+.lorems {
+  text-align: justify;
+  font-size: 16px;
+}
+.eatfoodcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.foodtextsection {
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+}
+.loremepsum {
+  font-size: 20px;
+}
+.foodtextsectionheahing {
+  text-align: left;
+}
+.foodimage2 {
+  width: 330px;
+}
+.foodimage {
+  width: 330px;
+}
+@media only screen and (max-width: 325px) {
+  .foodtextsection {
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+  }
+  .loremepsum {
+    font-size: 15px;
+  }
+  .foodimage2 {
+    width: 230px;
+  }
+  .foodimage {
+    width: 230px;
+  }
+}
+.footer {
+  box-shadow: 0px 0px 4px;
+  background-position: center;
+  padding: 40px;
+}
+.americafood-footer {
+  font-size: 34px;
+}
+.americafood-footer2 {
+  font-size: 26px;
+}
+.triangleshape {
+  position: absolute;
+  top: 244px;
+  left: -174px;
+}
+.triangleshape1 {
+  position: absolute;
+  top: 246px;
+  left: -167px;
+}
+.americafood-footer {
+  font-size: 28px;
+}
+.circleicon2 {
+  position: absolute;
+  bottom: 224px;
+  right: -168px;
+}
+.dotedcircle {
+  position: absolute;
+  bottom: 224px;
+  right: -177px;}
+  @media only screen and (max-width: 325px) {.circleicon2 {
+    position: absolute;
+    bottom: 224px;
+    right: -140px;
+  }
+  .dotedcircle {
+    position: absolute;
+    bottom: 224px;
+    right: -151px;}
+  
+    .triangleshape {
+      position: absolute;
+      top: 244px;
+      left: -154px;
+    }
+    .triangleshape1 {
+      position: absolute;
+      top: 246px;
+      left: -145px;
+    }}
