@@ -23,7 +23,7 @@
   background-color: #285c04;
   height: 80px;
   overflow: hidden;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   padding: 0px 49px;
@@ -31,7 +31,7 @@
   /* padding: 50px;  */
   gap: 30px;
   font-family: "Roboto";}
-  .mobilelogo1{display: flex;
+  .mobilelogo1{display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
