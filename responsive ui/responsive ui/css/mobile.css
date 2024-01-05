@@ -28,11 +28,14 @@
   .searchbox{height: 30px;
   width: 200px;
 border-radius: 5px;}
-
-  #check:checked~.mobileinput {
-    display: flex;
-    position: absolute;
+.mobileinput{
+  display: flex;
+  position: absolute;
     top: 360px;
+}
+  #check:checked~.mobileinput {
+    display: none;
+    
   }
 
   #checkbtn {
@@ -66,6 +69,7 @@ border-radius: 5px;}
 } */
 
 .mobilelogo1 {
+  text-align: center;
   display: block;
 }
 
@@ -311,7 +315,7 @@ top: 66px; */
   top: 30px;
   /* right: 1px; */
 }
-
+.aboutus-section {padding: 20px 43px;}
 .hotp {
   top: 37px;
   right: 38px;
@@ -364,7 +368,7 @@ top: 66px; */
 
 .videosection {
   flex-direction: column;
-  padding: 43px;
+  padding:20px 43px;
   height: 800px;
   width: 100%;
   gap: 0px;
@@ -437,8 +441,8 @@ top: 66px; */
 
   .videosection {
     flex-direction: column;
-    padding: 43px;
-    height: 818px;
+    padding:20px 43px;
+    height: 732px;
     width: 100%;
     gap: 0px;
   }
@@ -554,7 +558,7 @@ top: 66px; */
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 43px;
+  padding:20px 43px;
 }
 
 .jabalayasection {
@@ -581,6 +585,7 @@ top: 66px; */
 
 /*card section responsivness*/
 .cardsection {
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -600,6 +605,7 @@ top: 66px; */
   box-shadow: 0px 0px 4px;
   background-position: center;
   padding: 40px;
+  margin-top: 20px;
 }
 
 .plan {
@@ -756,4 +762,31 @@ top: 66px; */
     top: 246px;
     left: -145px;
   }
+  .Pricingsection{height: 71px;}
 }
+
+.footer{margin-top: 0px;}
+.Pricingsection{height: 66vh;
+padding: 20px 50px;}
+
+ /* .discountbox{padding: 0px;}  */
+.discountbox::before{
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.152);
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  padding: 0px;
+}
+.beforeDiv::before {
+  content: "";
+  width: 120px;
+  height: 120px;
+  display: block;
+  position: relative;
+  border-top: 4px solid #285c04;
+  border-left: 4px solid #285c04;
+  top: 111px;
+  left: -12px;}
