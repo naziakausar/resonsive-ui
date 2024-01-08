@@ -8,28 +8,71 @@
 .heading {
   width: 80%;
 }
- /* @media only screen and (min-width: 426px) and (max-width: 768px) {
+#checkbtn {
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  line-height: 80px;
+  /* margin-left: 10px; */
+  font-size: 30px;
+  display: flex;
+}
+.header {
+  display: none;
+}
+.mobileheader {
+  display: flex;
+}
+.ul {
+  display: none;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   #checkbtn {
     display: block;
   }
-  #check:checked~.mobileinput {
-    display: none;
-    
+  #check:checked ~ .mobileinput {
+    display: flex;
   }
   .input {
     display: none;
   }
-  .searchbox{height: 30px;
-  width: 200px;
-border-radius: 5px;}
-.mobileinput{
-  display: flex;
-  position: absolute;
+  .searchbox {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  .mobileinput {
+    display: none;
+    position: absolute;
     top: 490px;
-    left: 99px;
+    left: 285px;
+    transition: 0.5s;
+  }
+  #check:checked~.nav {
+    display: flex;}
 }
-}  */
+.mobilelogo1 {
+  text-align: center;
+  display: block;
+}
+.nav {
+  display: none;
+  position:absolute;
+  top: 82px;
+  left:3px; 
+  background-color: white;
+  gap: 30px;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  flex-direction: column;
+  width: 100%;
 
+}
+
+/* .input{display: none;} */
 .americanfood {
   font-size: 60px;
 }

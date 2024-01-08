@@ -373,7 +373,7 @@ font-family: "Roboto";}
 .foodvideo2 {
   position: absolute;
   top: 1%;
-  left: 9%;
+  left: 10%;
   transform: translate(-50%, -50%);
   justify-content: flex-end;
   align-items: center;
