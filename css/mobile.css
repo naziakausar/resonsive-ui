@@ -465,6 +465,40 @@ gap:5px;}
   .textboxsection {
     width: 100%;
   }
+  .card1 {
+    width: 315px;
+    height: 478px;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .card2 {
+    width: 315px;
+    height: 478px;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .card3 {
+    width: 315px;
+    display: flex;
+    gap: 20px;
+    height: 478px;
+    justify-content: flex-end;
+    align-items: center;
+  } 
+  
+  .foodimage2 {
+    width: 330px;
+  }
+  
+  .foodimage {
+    width: 330px;
+  } 
 
   .videosection2 {
     flex-direction: column;
@@ -472,6 +506,11 @@ gap:5px;}
     height: 671px;
     width: 100%;
     gap: 0px;
+  }
+  .peanutimage {
+    width: 323px;
+    /* padding: 26px; */
+    height: 200px;
   }
 
   .foodvideo2 {
@@ -485,7 +524,45 @@ gap:5px;}
   .textboxsection {
     width: 100%;
   }
-
+  .card1 {
+    width: 315px;
+    height: 478px;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .card2 {
+    width: 315px;
+    height: 478px;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .card3 {
+    width: 315px;
+    display: flex;
+    gap: 20px;
+    height: 478px;
+    justify-content: flex-end;
+    align-items: center;
+  } 
+  
+  .foodimage2 {
+    width: 330px;
+  }
+  
+  .foodimage {
+    width: 330px;
+  } 
+  .peanutimage {
+    width: 323px;
+    /* padding: 26px; */
+    height: 200px;
+  }
   .videosection2 {
     flex-direction: column;
     padding: 0px 40px;
@@ -535,11 +612,23 @@ gap:5px;}
   text-align: justify;
   font-size: 17px;
 }
-
+@media only screen and (max-width: 375px) {
 .peanutimage {
-  width: 250px;
+  width: 291px;
   /* padding: 26px; */
   height: 200px;
+}
+.salediscount{text-align: center;
+  font-size: 31px;}
+.allfoodproduct{font-size: 28px;}
+/* .special2{text-align: center;} */
+.card1{width: 277PX;}
+
+.card2{width: 277PX;}
+
+.card3{width: 277PX;}
+.foodimage2{width: 280PX;}
+.foodimage{width: 273PX;}
 }
 
 .peanutimagebox {
@@ -614,7 +703,7 @@ gap:5px;}
   height: 186px;
 }
 
-.card1 {
+/* .card1 {
   width: 315px;
   height: 478px;
   gap: 20px;
@@ -639,7 +728,7 @@ gap:5px;}
   height: 478px;
   justify-content: flex-end;
   align-items: center;
-}
+}  */
 
 .blog {
   padding: 0px 43px;
@@ -672,17 +761,17 @@ gap:5px;}
   text-align: left;
 }
 
-.foodimage2 {
+ /* .foodimage2 {
   width: 330px;
 }
 
 .foodimage {
   width: 330px;
-}
+}  */
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 320px) {
   .foodtextsection {
-    width: 100%;
+    width: 106%;
     justify-content: center;
     align-items: start;
   }
@@ -690,13 +779,19 @@ gap:5px;}
   .loremepsum {
     font-size: 15px;
   }
+.special2{text-align: center;}
+.salediscount{text-align: center;
+font-size: 25px;}
 
+.allfoodproduct{font-size: 22px;}
   .foodimage2 {
     width: 230px;
+    height: 364px;
   }
 
   .foodimage {
     width: 230px;
+    height: 364px;
   }
 }
 
@@ -742,13 +837,23 @@ gap:5px;}
   right: -177px;
 }
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 320px) {
   .circleicon2 {
     position: absolute;
     bottom: 224px;
     right: -140px;
   }
-
+  .card1{width: 230px;
+  height: 455px;}
+  .card2{width: 230px;
+  height: 455px;}
+  .card3{width: 230px;
+  height: 455px;}
+  .peanutimage {
+    width: 237px;
+    /* padding: 26px; */
+    height: 200px;
+  }
   .dotedcircle {
     position: absolute;
     bottom: 224px;
