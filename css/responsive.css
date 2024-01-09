@@ -51,6 +51,15 @@ display: none;}
   border: none;
   color: white;
   background-color: #285c04;
+  
+}
+.searchbox1 {
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  color: white;
+  /* background-color: #285c04; */
+  padding-left: 10px;
 }
 
 .searchbox::placeholder {
@@ -74,7 +83,20 @@ display: none;}
   justify-content: center;
   align-items: center;
 }
-.mobileinput{ border-bottom: 1px solid white;
+::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+.mobileinput-placeholder { 
+  color: white;}
+.mobileinput{
+  background-color: #285c04;
+  height: 30px;
+  border: 2px solid #285c04;
+  border-radius: 5px;
+   border-bottom: 1px solid #285c04;
+  /* background-color: #285c04; */
   display: none;
   flex-direction: row;
   justify-content: center;
