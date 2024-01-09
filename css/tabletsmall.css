@@ -1,0 +1,30 @@
+.cardsection{display: flex;
+flex-direction: column;
+/* width: 100%; */
+justify-content: center;
+align-items: center;
+height: auto;
+gap: 30px;}
+.card1 {
+  gap: 26px;
+    width: 80%;
+    height: 480px;
+
+  }
+  .card2 {
+    width: 80%;
+    height: 480px;
+    gap: 26px;
+  }
+  .card3 {
+    gap: 26px;
+    width: 80%;
+    height: 480px;
+  }
+  .eatfoodcontainer{display: flex;
+flex-direction: column;
+width: 80%;
+justify-content: center;
+align-items: center;}
+.loremepsum{font-size: 18px;}
+.salediscount{font-size: 27px;}

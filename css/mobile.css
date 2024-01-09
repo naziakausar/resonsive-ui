@@ -31,8 +31,8 @@ border-radius: 5px;}
 .mobileinput{
   display: none;
   position: absolute;
-    top: 477px;
-    left: 99px;
+    /* top: 477px;
+    left: 99px; */
 }
   #check:checked~.mobileinput {
     display: flex;
@@ -327,7 +327,7 @@ gap:5px;}
   /* font-size: 33px; */
   font-size: 28px;
 }
-
+.aboutustext{font-size: 47px;}
 .besttasteheading {
   /* font-size: 29px; */
   font-size: 24px;
@@ -465,7 +465,7 @@ border-radius: 5px;}
   .textboxsection {
     width: 100%;
   }
-
+.aboutustext{font-size: 47px;}
   .header {
     display: none;
   }
@@ -479,7 +479,7 @@ border-radius: 5px;}
   }
 
   .foodvideo {
-    left: 33%;
+    /* left: 33%; */
     top: 46%;
     transform: translate(-50%, -50%);
   }
@@ -489,7 +489,7 @@ border-radius: 5px;}
   .textboxsection {
     width: 100%;
   }
-
+.aboutustext{font-size: 47px;}
   .videosection {
     flex-direction: column;
     padding:20px 43px;
@@ -514,6 +514,12 @@ border-radius: 5px;}
   .textboxsection {
     width: 100%;
   }
+  .pastavideo{width: 330px;
+    height: 290px;}
+    .foodvideo{left: 27%;}
+    .pastavideo2{width: 330px;
+      height: 290px;}
+      .foodvideo2{left: 27%;}
   .card1 {
     width: 315px;
     height: 478px;
@@ -542,11 +548,12 @@ border-radius: 5px;}
   } 
   
   .foodimage2 {
-    width: 330px;
+    width: 100%;
   }
   
   .foodimage {
-    width: 330px;
+    /* width: 330px; */
+    width: 100%;
   } 
 
   .videosection2 {
@@ -563,7 +570,8 @@ border-radius: 5px;}
   }
 
   .foodvideo2 {
-    left: 33%;
+    left: 28%;
+    /* left: 33%; */
     top: 46%;
     transform: translate(-50%, -50%);
   }
@@ -581,7 +589,12 @@ border-radius: 5px;}
     justify-content: flex-end;
     align-items: center;
   }
-  
+  .pastavideo{width: 330px;
+    height: 290px;}
+    .foodvideo{left: 27%;}
+    .pastavideo2{width: 330px;
+      height: 290px;}
+      .foodvideo2{left: 27%;}
   .card2 {
     width: 315px;
     height: 478px;
@@ -601,11 +614,13 @@ border-radius: 5px;}
   } 
   
   .foodimage2 {
-    width: 330px;
+    /* width: 330px; */
+    width: 100%;
   }
   
   .foodimage {
-    width: 330px;
+    /* width: 330px; */
+    width: 100%;
   } 
   .peanutimage {
     width: 323px;
@@ -667,6 +682,12 @@ border-radius: 5px;}
   /* padding: 26px; */
   height: 200px;
 }
+.pastavideo{width: 277px;
+height: 267px;}
+.foodvideo{left: 31%;}
+.pastavideo2{width: 277px;
+  height: 267px;}
+  .foodvideo2{left: 31%;}
 .salediscount{text-align: center;
   font-size: 31px;}
 .allfoodproduct{font-size: 28px;}
@@ -676,8 +697,14 @@ border-radius: 5px;}
 .card2{width: 277PX;}
 
 .card3{width: 277PX;}
-.foodimage2{width: 280PX;}
-.foodimage{width: 273PX;}
+.foodimage2{
+  /* width: 280PX; */
+  width: 100%;
+}
+.foodimage{
+  width: 100%;
+  /* width: 273PX; */
+}
 }
 
 .peanutimagebox {
@@ -803,7 +830,7 @@ border-radius: 5px;}
 }
 
 .loremepsum {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .foodtextsectionheahing {
@@ -824,6 +851,10 @@ border-radius: 5px;}
     justify-content: center;
     align-items: start;
   }
+  .pastavideo{width: 226px;
+  height: 226px;}
+  .foodvideo{left: 36%;}
+  .foodvideo2{left: 36%;}
 .eatfoodsection{height: 386px;}
   .loremepsum {
     font-size: 15px;
@@ -834,12 +865,13 @@ font-size: 25px;}
 
 .allfoodproduct{font-size: 22px;}
   .foodimage2 {
-    width: 230px;
+    /* width: 230px; */
+    width: 100%;
     height: 364px;
   }
 
-  .foodimage {
-    width: 230px;
+  .foodimage {width: 100%;
+    /* width: 230px; */
     height: 364px;
   }
 }
@@ -949,3 +981,13 @@ padding: 20px 50px;}
   border-left: 4px solid #285c04;
   top: 111px;
   left: -12px;}
+  /* .beforeDiv::before{
+  content: "";
+  width: 120px;
+  height: 120px;
+  display: block;
+  position: relative;
+  border-top: 4px solid #285c04;
+  border-left: 4px solid #285c04;
+  top: 111px;
+  left: -12px;} */
