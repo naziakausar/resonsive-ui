@@ -21,10 +21,14 @@ gap: 30px;}
     width: 80%;
     height: 480px;
   }
-  .eatfoodcontainer{display: flex;
+  .eatfoodcontainer{display: flex; 
+    /* background-color: red; */
 flex-direction: column;
-width: 80%;
+width: 100%;
 justify-content: center;
 align-items: center;}
+.foodtextsection{width: 80%;}
+.foodimage{width: 80%;}
+.foodimage2{width: 80%;}
 .loremepsum{font-size: 18px;}
 .salediscount{font-size: 27px;}
